@@ -2,6 +2,7 @@ variable AWS_REGION {
     default = "us-east-1"
 }
 
+# ami for bastion host
 variable AMIS {
     type = map
     default = {
